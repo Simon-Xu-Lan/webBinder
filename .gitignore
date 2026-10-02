@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Authentication / secrets
+auth/
+.env
+*.session.json
+
+# Downloaded / generated content
+downloads/
+data/
+output/
+logs/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
