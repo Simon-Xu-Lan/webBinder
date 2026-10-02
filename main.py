@@ -1,15 +1,10 @@
-from playwright.sync_api import sync_playwright
-from bs4 import BeautifulSoup
-import pymupdf
-from docx import Document
+from browser.browser_manager import open_browser
 
 
 def main():
-    print("Playwright imported successfully.")
-    print("BeautifulSoup imported successfully.")
-    print("PyMuPDF imported successfully.")
-    print("python-docx imported successfully.")
-    print("WebBinder environment is ready.")
+    print("WebBinder started.")
+
+    open_browser("https://www.google.com/")
 
 
 if __name__ == "__main__":
