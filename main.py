@@ -1,11 +1,11 @@
-from browser.browser_manager import open_login_page
+from browser.browser_manager import login_and_save_session
 
 
 def main():
     print("WebBinder started.")
 
-    login_url = "https://study.dataapplab.com/course?courseid=llm-developer-bootcamp-2603"
-    open_login_page(login_url)
+    login_url = "https://bcourses.berkeley.edu/"
+    login_and_save_session(login_url)
 
 
 if __name__ == "__main__":
